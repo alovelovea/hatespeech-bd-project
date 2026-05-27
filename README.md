@@ -16,6 +16,9 @@ hatestext-bd-project/
 │   └── roberta/         # RoBERTa 모델 실험
 ├── src/                 # 소스 코드 및 데이터 파일
 │   └── KOCOH_v.2.csv    # 원천 데이터셋
+│   └── team_train.csv    # 학습 데이터
+│   └── team_valid.csv    # 검증 데이터
+│   └── team_test.csv    # 테스트 데이터
 ├── .gitignore           # Git 추적 제외 설정
 ├── README.md            # 프로젝트 소개 및 가이드
 └── requirements.txt     # 프로젝트 필수 라이브러리 목록
