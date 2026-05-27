@@ -9,10 +9,13 @@
 
 ## 📂 폴더 구조
 ```text
-hatespeech-bd-project/
-├── notebooks/
-│   ├── baseline/        # 초기 베이스라인 실험
+hatestext-bd-project/
+├── notebooks/           # 분석 및 실험용 노트북 파일
+│   ├── baseline/        # 초기 베이스라인 모델
 │   ├── bert/            # BERT 모델 실험
 │   └── roberta/         # RoBERTa 모델 실험
-├── requirements.txt     # 필요 라이브러리 목록
-└── README.md
+├── src/                 # 소스 코드 및 데이터 파일
+│   └── KOCOH_v.2.csv    # 원천 데이터셋
+├── .gitignore           # Git 추적 제외 설정
+├── README.md            # 프로젝트 소개 및 가이드
+└── requirements.txt     # 프로젝트 필수 라이브러리 목록
