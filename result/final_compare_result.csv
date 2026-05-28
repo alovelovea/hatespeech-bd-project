@@ -1,0 +1,5 @@
+﻿model,accuracy,precision,recall,f1
+KOCOH 논문 LLM 평균 (GPT-4o 등 6개),-,-,-,0.6073
+BERT_comment_only_class_weight,0.5967,0.3472,0.6494,0.4525
+RoBERTa_comment_only_class_weight,0.6367,0.371,0.5974,0.4578
+RoBERTa_context+comment_context+comment,0.9266666666666666,0.8160919540229885,0.922077922077922,0.8658536585365854
