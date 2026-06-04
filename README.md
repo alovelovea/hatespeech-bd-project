@@ -1,7 +1,7 @@
 # 혐오 탐지 프로젝트 (Hate text Detection)
 
 ## 📌 프로젝트 소개
-본 프로젝트는 빅데이터를 활용하여 영상 및 텍스트 콘텐츠 내의 혐오 표현을 탐지하는 모델을 개발하는 프로젝트입니다. 
+본 프로젝트는 빅데이터를 활용하여 텍스트 콘텐츠 내의 한국어 혐오 표현을 탐지하는 모델을 개발하는 프로젝트입니다. 
 
 ## 🚀 주요 기능
 - **데이터 처리**: 텍스트 분석
@@ -16,9 +16,10 @@ hatestext-bd-project/
 │   └── roberta/         # RoBERTa 모델 실험
 ├── src/                 # 소스 코드 및 데이터 파일
 │   └── KOCOH_v.2.csv    # 원천 데이터셋
-│   └── team_train.csv    # 학습 데이터
-│   └── team_valid.csv    # 검증 데이터
-│   └── team_test.csv    # 테스트 데이터
+│   └── team_train_context_split.csv    # 학습 데이터
+│   └── team_valid_context_split.csv    # 검증 데이터
+│   └── team_test_context_split.csv    # 테스트 데이터
 ├── .gitignore           # Git 추적 제외 설정
-├── README.md            # 프로젝트 소개 및 가이드
+├── README.md            
 └── requirements.txt     # 프로젝트 필수 라이브러리 목록
+└── result               # 모델 학습 결과
